@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+  }
+  
+  .container {
+    background-image: url(./img/1.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 600px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+
+  }
+  .container h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white ; 
+  }
+  
+  .controls {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .controls label {
+    margin-right: 10px;
+  }
+  
+  .controls select {
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .controls button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .container button:hover{
+    background-color: #002955;
+    box-shadow: 1px 1px 5px 4px #0000ff57;
+  }
+  .grid-view {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 90px;
+  }
+  
+  .grid-view table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+  
+  .grid-view th,
+  .grid-view td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #gridBody{
+    color:white ;
+  }
+  .grid-view th {
+    background-color: #f2f2f2;
+  }
+  

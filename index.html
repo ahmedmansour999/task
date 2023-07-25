@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown and Grid-View</title>
+  <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+  <div class="container">
+    <h1>WELCOME, CHOOSE YOUR REGION.</h1>
+    <div class="controls">
+      <label for="countries">Select a Country:</label>
+      <select id="countries">
+        <option value="" disabled selected>Select a country</option>
+        <option value="USA">USA</option>
+        <option value="USA">Egypt</option>
+        <option value="USA">France</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+      </select>
+      <button id="addBtn">Add to Grid</button>
+    </div>
+    <div class="grid-view">
+      <table id="gridTable">
+        <thead>
+          <tr>
+            <th >Country Name</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="gridBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+</body>
+</html>
